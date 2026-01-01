@@ -10,5 +10,4 @@ No notebook, temos a analise de dados exploratoria basica
 No arquivo APP temos o visualização de 4 graficos atrelada a botões que funcionam de forma interativa
 
 Para acessar o app pode ser utilizado o link abaixo
-https://projeto_5.onrender.com/
-
+https://projeto-5-2cxw.onrender.com/
