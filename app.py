@@ -5,6 +5,7 @@ df = pd.read_csv("datasets/vehicles.csv")
 st.header('Análise de Anúncios de Vendas de Carros Usados')
 
 hist_button = st.button('Criar histograma') # criar um botão
+scatter_button = st.button('Criar gráfico de dispersão') # criar um botão
         
 if hist_button: # se o botão for clicado
     # escrever uma mensagem
@@ -17,7 +18,7 @@ if hist_button: # se o botão for clicado
     st.plotly_chart(fig, use_container_width=True)
 
 
-if hist_button: # se o botão for clicado
+if scatter_button: # se o botão for clicado
     # escrever uma mensagem
     st.write('Criando um grafico de dispersão para o conjunto de dados de anúncios de vendas de carros')
     
@@ -45,4 +46,3 @@ if build_scatter: # se a caixa de seleção for selecionada
 
     fig = px.scatter(df, x="model_year", y="price")
     st.plotly_chart(fig, use_container_width=True)
-    
